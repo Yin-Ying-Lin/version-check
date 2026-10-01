@@ -13,7 +13,9 @@ Driver Version Update\
   scripts\
     parse_page.py        解析另存網頁, 取出 Utility / Driver / BIOS 版本資料
     diff_and_update.py   比對新舊版本, 有變動時更新 Excel 並回報結果
-    state.json            記錄目前已知的版本基準, 由程式自動維護, 不需手動編輯
+    daily_check.py        每日排程實際呼叫的進入點, 純 Python, 不經過 Claude
+    notify_toast.ps1      顯示 Windows 原生通知(toast), 不經過 Claude
+    state.json             記錄目前已知的版本基準, 由程式自動維護, 不需手動編輯
   watch\
     README.txt             每日存檔操作說明(網址、檔名、存放位置)
     X870E Taichi\X870E Taichi.html
@@ -53,21 +55,32 @@ python diff_and_update.py --all
 
 ## 排程
 
-使用 Claude Code 的 CronCreate 工具, 設定每天本機時間 9:05 自動執行上述比對, 並透過通知告知使用者結果。
+原本用 Claude Code 的 CronCreate 工具排程, 但每次觸發都是在這個對話 session 裡重新執行一次, 會持續耗費 token, 且最長七天就會失效。已改成用 Windows 工作排程器(Task Scheduler)直接執行, 完全不經過 Claude, 不耗 token, 也沒有七天的限制。
 
-注意事項:
+設定內容:
 
-1. 排程綁定在建立當下的 session, 最長七天後自動失效, 到期需要重新建立
-2. 排程只有在 session 閒置時才會觸發, 需要讓該 session 保持存在
+1. 工作名稱: ASRock Driver Version Check
+2. 觸發時間: 每天 11:00
+3. 執行內容: `python.exe scripts\daily_check.py`
+
+daily_check.py 會依序呼叫 diff_and_update.py 比對兩個產品, 有變動或今天忘記存檔時, 用 notify_toast.ps1 跳出 Windows 原生通知, 整個過程不需要 Claude 參與。
+
+如果要修改排程時間或內容, 用 PowerShell 執行:
+
+```
+Get-ScheduledTask -TaskName "ASRock Driver Version Check"
+Set-ScheduledTask / Unregister-ScheduledTask 視需求調整
+```
 
 ## 通知方式現況
 
-目前使用 PushNotification(終端機 / 手機推播), 原因如下:
+目前使用 Windows 原生 toast 通知(notify_toast.ps1), 不需要任何 Claude connector 或連線, 純本機彈出視窗提醒。
 
-1. Email 通知原本規劃用公司 Outlook(Microsoft 365 connector), 但該 connector 需要公司 Microsoft 365 租戶管理員另外核准(Entra ID admin consent), 已請 IT 協助處理, 尚未核准完成
-2. 曾考慮改用個人 Gmail 作為替代方案, 但使用者評估後認為隱私風險(授權範圍為整個信箱, 非僅限寄信)不可接受, 已排除此方案
+曾評估過的其他方式, 皆因組織層級限制或隱私疑慮而擱置, 記錄如下供之後參考:
 
-待 Outlook connector 核准完成後, 需開新 session 確認工具可用, 再將排程的通知方式由 PushNotification 切換為 Outlook 寄信。
+1. Outlook(Microsoft 365 connector): 需要公司 Microsoft 365 租戶管理員核准(Entra ID admin consent), 已請 IT 協助, 尚未核准完成, 之後若核准, 可以直接改用 Python 的 smtplib 搭配應用程式密碼或 Microsoft Graph API 寄信, 不需要再依賴 Claude 的 connector 機制
+2. 個人 Gmail: 考慮過當替代方案, 但授權範圍是整個信箱(讀寫皆可), 使用者評估隱私風險不可接受, 已排除
+3. Claude Remote Control(手機推播): 公司組織政策已關閉此功能, 需組織管理員於 claude.ai/admin-settings/claude-code 開啟, 另有信件草稿待寄出
 
 ## 已知限制
 
