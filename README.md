@@ -80,7 +80,7 @@ Set-ScheduledTask / Unregister-ScheduledTask 視需求調整
 
 1. Outlook(Microsoft 365 connector): 需要公司 Microsoft 365 租戶管理員核准(Entra ID admin consent), 已請 IT 協助, 尚未核准完成, 之後若核准, 可以直接改用 Python 的 smtplib 搭配應用程式密碼或 Microsoft Graph API 寄信, 不需要再依賴 Claude 的 connector 機制
 2. 個人 Gmail: 考慮過當替代方案, 但授權範圍是整個信箱(讀寫皆可), 使用者評估隱私風險不可接受, 已排除
-3. Claude Remote Control(手機推播): 公司組織政策已關閉此功能, 需組織管理員於 claude.ai/admin-settings/claude-code 開啟, 另有信件草稿待寄出
+3. Claude Remote Control(手機推播): 組織管理員已開啟此功能, 曾短暫連接測試, 但使用者後續決定取消連接(不確定連到哪支裝置、且跟每日提醒無直接關係, 每日提醒已改用 Windows 原生通知, 不需要 Remote Control), 已停用
 
 ## 已知限制
 
