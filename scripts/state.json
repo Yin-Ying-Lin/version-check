@@ -1,0 +1,653 @@
+{
+  "X870E Taichi": {
+    "utility": [
+      {
+        "key": "ASRock Motherboard 工具軟體|Win10+Win11|Stable",
+        "name": "ASRock Motherboard 工具軟體",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "4.1.12",
+        "date": "2024/8/27"
+      },
+      {
+        "key": "Blazing OC Tuner|Win10+Win11|Stable",
+        "name": "Blazing OC Tuner",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "1.0.11",
+        "date": "2024/12/12"
+      },
+      {
+        "key": "APP Shop|Win10+Win11|Stable",
+        "name": "APP Shop",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "2.0.0.8",
+        "date": "2026/6/22"
+      },
+      {
+        "key": "Nahimic3 工具軟體|Win10+Win11|Stable",
+        "name": "Nahimic3 工具軟體",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "1.10.11_APO4",
+        "date": "2026/8/31"
+      },
+      {
+        "key": "Restart to UEFI|Win10+Win11|Stable",
+        "name": "Restart to UEFI",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "1.0.15",
+        "date": "2024/8/26"
+      },
+      {
+        "key": "ASRock Polychrome RGB|Win10+Win11|Stable",
+        "name": "ASRock Polychrome RGB",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "2.0.191",
+        "date": "2024/12/5"
+      },
+      {
+        "key": "ASRock Polychrome RGB|Win10+Win11|Beta",
+        "name": "ASRock Polychrome RGB",
+        "os": "Win10+Win11",
+        "beta": true,
+        "version": "2.0.223",
+        "date": "2026/8/20"
+      },
+      {
+        "key": "Norton 360 for Gamers|Win10+Win11|Stable",
+        "name": "Norton 360 for Gamers",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "N/A",
+        "date": ""
+      },
+      {
+        "key": "SignalRGB|Win10+Win11|Stable",
+        "name": "SignalRGB",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "N/A",
+        "date": ""
+      }
+    ],
+    "driver": [
+      {
+        "key": "Realtek 高傳真音源驅動程式|Win10+Win11|Stable",
+        "name": "Realtek 高傳真音源驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "2449_UAD_WHQL",
+        "date": "2026/9/29"
+      },
+      {
+        "key": "Bluetooth Driver with WiFi 7 Module|Win11|Stable",
+        "name": "Bluetooth Driver with WiFi 7 Module",
+        "os": "Win11",
+        "beta": false,
+        "version": "EB601NF_v18.4043.2603.1202",
+        "date": "2026/8/31"
+      },
+      {
+        "key": "MediaTek 藍牙驅動程式|Win11|Stable",
+        "name": "MediaTek 藍牙驅動程式",
+        "os": "Win11",
+        "beta": false,
+        "version": "1.1147.0.627",
+        "date": "2026/9/29"
+      },
+      {
+        "key": "AMD AI NPU 驅動程式|Win10+Win11|Stable",
+        "name": "AMD AI NPU 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "10.1109.0008.128",
+        "date": "2024/6/13"
+      },
+      {
+        "key": "AMD chipset 驅動程式|Win10+Win11|Stable",
+        "name": "AMD chipset 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "8.03.25.247",
+        "date": "2026/4/22"
+      },
+      {
+        "key": "Realtek 網路驅動程式|Win10+Win11|Stable",
+        "name": "Realtek 網路驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "10.080.0525.2026",
+        "date": "2026/9/29"
+      },
+      {
+        "key": "AMD RAIDXpert2 工具軟體|Win10+Win11|Stable",
+        "name": "AMD RAIDXpert2 工具軟體",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "9.3.3.245",
+        "date": "2026/1/7"
+      },
+      {
+        "key": "RAID Preinstall 驅動程式|Win10+Win11|Stable",
+        "name": "RAID Preinstall 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "9.3.3.245",
+        "date": "2026/1/7"
+      },
+      {
+        "key": "ASMedia USB4 驅動程式|Win10|Stable",
+        "name": "ASMedia USB4 驅動程式",
+        "os": "Win10",
+        "beta": false,
+        "version": "1.0.0.0",
+        "date": "2025/10/3"
+      },
+      {
+        "key": "AMD 顯示卡驅動程式|Win10+Win11|Stable",
+        "name": "AMD 顯示卡驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "25.30.34",
+        "date": "2026/6/18"
+      },
+      {
+        "key": "AW WiFi 7 W網路驅動程式|Win11|Stable",
+        "name": "AW WiFi 7 W網路驅動程式",
+        "os": "Win11",
+        "beta": false,
+        "version": "EB601NF_v6102.24.146.0",
+        "date": "2026/8/31"
+      },
+      {
+        "key": "MediaTek 無線網路驅動程式|Win11|Stable",
+        "name": "MediaTek 無線網路驅動程式",
+        "os": "Win11",
+        "beta": false,
+        "version": "5.7.0.6342",
+        "date": "2026/9/29"
+      },
+      {
+        "key": "ASMedia USB4 驅動程式|Win10|Beta",
+        "name": "ASMedia USB4 驅動程式",
+        "os": "Win10",
+        "beta": true,
+        "version": "1.0.0.0",
+        "date": "2025/8/15"
+      }
+    ],
+    "bios": [
+      {
+        "key": "4.43",
+        "version": "4.43",
+        "date": "2026/7/1",
+        "size": "17.49MB",
+        "beta": false
+      },
+      {
+        "key": "4.41",
+        "version": "4.41",
+        "date": "2026/6/17",
+        "size": "17.49MB",
+        "beta": false
+      },
+      {
+        "key": "4.20",
+        "version": "4.20",
+        "date": "2026/4/29",
+        "size": "17.47MB",
+        "beta": false
+      },
+      {
+        "key": "4.10",
+        "version": "4.10",
+        "date": "2026/2/25",
+        "size": "15.81MB",
+        "beta": false
+      },
+      {
+        "key": "4.07.AS01",
+        "version": "4.07.AS01",
+        "date": "2026/2/7",
+        "size": "15.75MB",
+        "beta": true
+      },
+      {
+        "key": "4.04",
+        "version": "4.04",
+        "date": "2026/1/16",
+        "size": "15.83MB",
+        "beta": false
+      },
+      {
+        "key": "4.03",
+        "version": "4.03",
+        "date": "2025/12/17",
+        "size": "15.83MB",
+        "beta": false
+      },
+      {
+        "key": "3.50",
+        "version": "3.50",
+        "date": "2025/9/26",
+        "size": "13.14MB",
+        "beta": false
+      },
+      {
+        "key": "3.40",
+        "version": "3.40",
+        "date": "2025/9/1",
+        "size": "13.14MB",
+        "beta": false
+      },
+      {
+        "key": "3.30",
+        "version": "3.30",
+        "date": "2025/6/16",
+        "size": "13.14MB",
+        "beta": false
+      },
+      {
+        "key": "3.25",
+        "version": "3.25",
+        "date": "2025/5/15",
+        "size": "13.14MB",
+        "beta": false
+      },
+      {
+        "key": "3.20",
+        "version": "3.20",
+        "date": "2025/2/24",
+        "size": "13.11MB",
+        "beta": false
+      },
+      {
+        "key": "3.18.AS02",
+        "version": "3.18.AS02",
+        "date": "2025/2/13",
+        "size": "13.11MB",
+        "beta": true
+      },
+      {
+        "key": "3.16",
+        "version": "3.16",
+        "date": "2024/12/20",
+        "size": "13.10MB",
+        "beta": false
+      },
+      {
+        "key": "3.15",
+        "version": "3.15",
+        "date": "2024/12/12",
+        "size": "13.10MB",
+        "beta": false
+      },
+      {
+        "key": "3.12.AS02",
+        "version": "3.12.AS02",
+        "date": "2024/11/20",
+        "size": "13.10MB",
+        "beta": true
+      },
+      {
+        "key": "3.10",
+        "version": "3.10",
+        "date": "2024/10/24",
+        "size": "13.10MB",
+        "beta": false
+      },
+      {
+        "key": "3.08",
+        "version": "3.08",
+        "date": "2024/9/25",
+        "size": "13.07MB",
+        "beta": false
+      },
+      {
+        "key": "3.06",
+        "version": "3.06",
+        "date": "2024/8/28",
+        "size": "13.04MB",
+        "beta": false
+      },
+      {
+        "key": "3.04",
+        "version": "3.04",
+        "date": "2024/7/18",
+        "size": "13.02MB",
+        "beta": false
+      }
+    ]
+  },
+  "_meta": {
+    "X870E Taichi": {
+      "last_checked": "2026-10-01"
+    },
+    "Z890 Taichi": {
+      "last_checked": "2026-10-01"
+    }
+  },
+  "Z890 Taichi": {
+    "utility": [
+      {
+        "key": "ASRock Motherboard 工具軟體|Win10+Win11|Stable",
+        "name": "ASRock Motherboard 工具軟體",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "4.1.28",
+        "date": "2024/9/23"
+      },
+      {
+        "key": "APP Shop|Win10+Win11|Stable",
+        "name": "APP Shop",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "2.0.0.8",
+        "date": "2026/6/22"
+      },
+      {
+        "key": "Nahimic3 工具軟體|Win10+Win11|Stable",
+        "name": "Nahimic3 工具軟體",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "1.10.11_APO4",
+        "date": "2026/9/16"
+      },
+      {
+        "key": "Restart to UEFI|Win10+Win11|Stable",
+        "name": "Restart to UEFI",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "1.0.15",
+        "date": "2024/8/14"
+      },
+      {
+        "key": "ASRock Polychrome RGB|Win10+Win11|Stable",
+        "name": "ASRock Polychrome RGB",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "2.0.191",
+        "date": "2024/12/5"
+      },
+      {
+        "key": "ASRock Polychrome RGB|Win10+Win11|Beta",
+        "name": "ASRock Polychrome RGB",
+        "os": "Win10+Win11",
+        "beta": true,
+        "version": "2.0.223",
+        "date": "2026/8/20"
+      },
+      {
+        "key": "Norton 360 for Gamers|Win10+Win11|Stable",
+        "name": "Norton 360 for Gamers",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "N/A",
+        "date": ""
+      },
+      {
+        "key": "SignalRGB|Win10+Win11|Stable",
+        "name": "SignalRGB",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "N/A",
+        "date": ""
+      }
+    ],
+    "driver": [
+      {
+        "key": "Realtek 高傳真音源驅動程式|Win10+Win11|Stable",
+        "name": "Realtek 高傳真音源驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "2449_UAD_WHQL",
+        "date": "2026/9/16"
+      },
+      {
+        "key": "Intel 藍牙驅動程式|Win10+Win11|Stable",
+        "name": "Intel 藍牙驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "24.0.0.2G",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "Intel NPU 驅動程式|Win10+Win11|Stable",
+        "name": "Intel NPU 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "32.0.100.4404",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "Intel GNA Scoring Accelerator 驅動程式|Win10+Win11|Stable",
+        "name": "Intel GNA Scoring Accelerator 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "3.5.0.1611",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "INF 驅動程式|Win10+Win11|Stable",
+        "name": "INF 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "10.1.20378.8757",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "Intel Dynamic Tuning Technology|Win10|Stable",
+        "name": "Intel Dynamic Tuning Technology",
+        "os": "Win10",
+        "beta": false,
+        "version": "9.0.11905.54373",
+        "date": "2025/6/5"
+      },
+      {
+        "key": "Intel Dynamic Tuning Technology|Win11|Stable",
+        "name": "Intel Dynamic Tuning Technology",
+        "os": "Win11",
+        "beta": false,
+        "version": "9.1.10005.898",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "Intel Management Engine 驅動程式|Win10+Win11|Stable",
+        "name": "Intel Management Engine 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "2553.8.58.0_CONS",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "Intel Platform Performance Package 驅動程式|Win11|Stable",
+        "name": "Intel Platform Performance Package 驅動程式",
+        "os": "Win11",
+        "beta": false,
+        "version": "26.06.100.32",
+        "date": "2026/9/16"
+      },
+      {
+        "key": "Intel Serial IO 驅動程式|Win10+Win11|Stable",
+        "name": "Intel Serial IO 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "30.100.2529.2",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "Realtek 網路驅動程式|Win10+Win11|Stable",
+        "name": "Realtek 網路驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "10.080.0525.2026",
+        "date": "2026/9/16"
+      },
+      {
+        "key": "RAID Preinstall 驅動程式|Win10+Win11|Stable",
+        "name": "RAID Preinstall 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "20.2.6.1025.5",
+        "date": "2026/9/16"
+      },
+      {
+        "key": "Intel Rapid Storage Technology 驅動程式與工具軟體|Win10+Win11|Stable",
+        "name": "Intel Rapid Storage Technology 驅動程式與工具軟體",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "20.2.6.1025.5",
+        "date": "2026/9/16"
+      },
+      {
+        "key": "Thunderbolt(TM) 控制器軟體|Win10|Stable",
+        "name": "Thunderbolt(TM) 控制器軟體",
+        "os": "Win10",
+        "beta": false,
+        "version": "Rev86_3",
+        "date": "2024/11/11"
+      },
+      {
+        "key": "VGA 驅動程式|Win10+Win11|Stable",
+        "name": "VGA 驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "32.0.101.8331",
+        "date": "2026/1/26"
+      },
+      {
+        "key": "Intel 無線網路驅動程式|Win10+Win11|Stable",
+        "name": "Intel 無線網路驅動程式",
+        "os": "Win10+Win11",
+        "beta": false,
+        "version": "23.170.0.1G",
+        "date": "2026/9/16"
+      }
+    ],
+    "bios": [
+      {
+        "key": "3.40",
+        "version": "3.40",
+        "date": "2026/9/21",
+        "size": "11.76MB",
+        "beta": false
+      },
+      {
+        "key": "3.31",
+        "version": "3.31",
+        "date": "2026/7/14",
+        "size": "11.76MB",
+        "beta": false
+      },
+      {
+        "key": "3.24",
+        "version": "3.24",
+        "date": "2026/2/2",
+        "size": "11.76MB",
+        "beta": false
+      },
+      {
+        "key": "3.15",
+        "version": "3.15",
+        "date": "2025/12/29",
+        "size": "11.78MB",
+        "beta": false
+      },
+      {
+        "key": "3.13",
+        "version": "3.13",
+        "date": "2025/12/2",
+        "size": "11.74MB",
+        "beta": true
+      },
+      {
+        "key": "3.12",
+        "version": "3.12",
+        "date": "2025/11/26",
+        "size": "11.71MB",
+        "beta": false
+      },
+      {
+        "key": "3.09",
+        "version": "3.09",
+        "date": "2025/9/10",
+        "size": "11.75MB",
+        "beta": false
+      },
+      {
+        "key": "3.07",
+        "version": "3.07",
+        "date": "2025/6/17",
+        "size": "11.73MB",
+        "beta": true
+      },
+      {
+        "key": "3.04",
+        "version": "3.04",
+        "date": "2025/4/22",
+        "size": "11.73MB",
+        "beta": false
+      },
+      {
+        "key": "2.22",
+        "version": "2.22",
+        "date": "2025/3/21",
+        "size": "11.73MB",
+        "beta": false
+      },
+      {
+        "key": "2.20.AS05",
+        "version": "2.20.AS05",
+        "date": "2025/2/19",
+        "size": "11.71MB",
+        "beta": true
+      },
+      {
+        "key": "2.19",
+        "version": "2.19",
+        "date": "2024/12/10",
+        "size": "11.69MB",
+        "beta": false
+      },
+      {
+        "key": "2.16",
+        "version": "2.16",
+        "date": "2024/11/29",
+        "size": "11.64MB",
+        "beta": false
+      },
+      {
+        "key": "2.15",
+        "version": "2.15",
+        "date": "2024/11/29",
+        "size": "11.68MB",
+        "beta": false
+      },
+      {
+        "key": "2.08",
+        "version": "2.08",
+        "date": "2024/10/23",
+        "size": "11.63MB",
+        "beta": false
+      },
+      {
+        "key": "2.02",
+        "version": "2.02",
+        "date": "2024/10/1",
+        "size": "11.67MB",
+        "beta": false
+      },
+      {
+        "key": "1.35",
+        "version": "1.35",
+        "date": "2024/9/23",
+        "size": "11.66MB",
+        "beta": false
+      }
+    ]
+  }
+}
